@@ -1,1 +1,1 @@
-command line challenge/
+command line challenge

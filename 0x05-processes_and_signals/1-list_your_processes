@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
-#
-# Display a list of currently running processes (the simple BSD way)
+# Displays a list of currently running processes.
+#+   Shows all processes, for all users, including those
+#+  which might not have a TTY.
 
-#PS_FORMAT='user,pid,%cpu,%mem,vsz,rss,tty,stat,start_time,bsdtime,args' ps -e --forest --sort=user
-
-ps auxf
+ps -a uf
